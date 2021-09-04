@@ -1,0 +1,7 @@
+import 'dart:math';
+void main(){
+  var area,a=10;
+  area=pow(a,2);
+  print("area of square $area");
+}
+  
