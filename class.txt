@@ -1,0 +1,41 @@
+void main(){
+ var a=22;
+ var b=10;
+  
+final ad=Call(a:a,b:b);
+  print(ad.add());
+  print(ad.sub());
+  print(ad.div());
+  print(ad.mull());
+  print(ad.avg());
+
+}
+class Call
+{
+  Call({this.a,this.b});
+    var a,b,c;
+  String add(){
+    c=a+b;
+  return 'sum=$c'; }
+  
+  String sub()
+  {
+    c=a-b;
+    return 'difference=$c';
+  }
+  String div()
+  {
+    c=a/b;
+    return 'reminder=$c';
+  }
+  String mull()
+  {
+   c=a*b;
+    return 'product=$c';
+  }
+  String avg()
+    {
+      c=(a+b)/2;
+      return 'average=$c';
+    }
+}
