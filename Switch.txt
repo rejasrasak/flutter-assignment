@@ -1,0 +1,17 @@
+void main()
+  {
+    mark('A');
+  }
+void mark(a){
+  switch(a){
+    case 'A':{print('excellent');}
+      break;
+    case 'B':{print('good');}
+           break;
+    case 'C':{print('poor');}
+           break;
+    default:{print('Fail');}
+           break;
+
+  }
+}
