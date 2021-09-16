@@ -1,0 +1,19 @@
+void main()
+{
+  mark(30);
+ 
+}
+void mark(a){
+  if(a>=60){
+    print('A');
+  }
+  else if(a>=50){
+    print('B');
+  }
+  else if(a>=40){
+    print('c');
+  }
+  else{
+    print('fail');
+  }
+}
