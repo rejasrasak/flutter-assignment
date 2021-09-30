@@ -1,0 +1,16 @@
+void main()
+{
+  var i,n='veg';
+  if(i==n)
+  {
+    print("gopimanchoori");
+      print("carrot soup");
+      print("vegitable kuruma");
+  }
+  else
+  {
+    print("chicken fry");
+    print("mutten soup");
+    print("beef curry");
+  }
+}
