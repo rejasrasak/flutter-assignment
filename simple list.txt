@@ -1,0 +1,6 @@
+void main()
+{int n;
+  var d=[11,22,58,73,66,11,89,66];
+  d.removeRange(2,5);
+  print(d);
+}
